@@ -671,12 +671,16 @@ body {
 
 .what h1 {
   color: black;
+  font-size: 35px;
+}
+.what h3{
+  font-size: 25px;
 }
 
 .what p {
   width: 500px;
   margin: auto;
-  font-size: 25px;
+  font-size: 22px;
   overflow-wrap: break-word;
   text-align: justify;
 
