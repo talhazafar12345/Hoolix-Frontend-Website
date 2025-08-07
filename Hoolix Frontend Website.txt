@@ -580,7 +580,7 @@ body {
 
 .agency button {
 
-  background-color: blue;
+  background-color: green;
   width: 200px;
   height: 60px;
   color: white;
@@ -903,6 +903,20 @@ body {
 .call {
   color: green;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2350,118 +2364,108 @@ body {
  
 
 
-
-
   .main {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
   }
 
 
-  .agency {
-    text-align: center;
-  }
+ 
 
   .agency h1 {
 
-    width: 700px;
-    font-size: 75px;
-    margin: auto;
+    width: 500px;
+    font-size: 40px;
     padding-top: 40px;
   }
 
   .agency .donec {
-    width: 800px;
-    font-size: 45px;
-    margin: auto;
+    width: 500px;
+    font-size: 20px;
     padding-top: 40px;
 
   }
 
   .agency button {
     margin-top: 40px;
-    font-size: 45px;
-    width: 400px;
-    height: 75px;
+    font-size: 20px;
+ 
   }
 
   .agency .clr {
-    font-size: 45px;
+    font-size: 25px;
   }
 
   .imagewrapper {
-    width: 900px;
-    height: 690px;
+    width: 460px;
+    height: 490px;
   }
 
   .mainimg {
-    width: 770px;
-    height: 590px;
+    width: 430px;
+    height: 390px;
   }
 
   .des {
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
+    flex-direction: row;
+
   }
 
-  .sim img {
+.sim img {
+  width: 120%;
+  height: auto;
+  object-fit: cover;
+  position: relative;
+  right: 90px;
+}
+
+  .thing h1 {
+    font-size: 40px;
     width: 100%;
   }
 
-  .thing h1 {
-    font-size: 75px;
-    width: 90%;
-    margin: auto;
-    text-align: center;
-  }
-
   .thing p {
-    font-size: 45px;
+    font-size: 20px;
     width: 90%;
-    margin: auto;
     text-align: justify;
-    padding-top: 30px;
   }
 
   .tmmm {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    flex-direction:row;
+  
   }
 
   .thing button {
-    font-size: 45px;
-    width: 400px;
-    height: 75px;
-    margin-top: 30px;
+    font-size: 20px;
+    width: 200px;
+    height: 45px;
   }
 
   .mmm p {
     position: relative;
-    bottom: 10px;
+    bottom: 3px;
   }
 
   .peh {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
   .sec {
-    flex-direction: column;
+    flex-direction: roww;
     align-items: center;
   }
 
   .what h1 {
-    font-size: 75px;
+    font-size: 40px;
   }
 
   .what h3 {
-    font-size: 45px;
+    font-size: 30px;
+    margin-top: 80px;
   }
 
   .what p {
-    font-size: 45px;
+    font-size: 30px;
     width: 90%;
     overflow-wrap: break-word;
 
@@ -2475,13 +2479,13 @@ body {
   }
 
   .cre h2 {
-    font-size: 55px;
+    font-size: 30px;
     margin: auto;
     text-align: center;
   }
 
   .cre p {
-    font-size: 45px;
+    font-size: 20px;
     width: 90%;
     overflow-wrap: break-word;
     margin: auto;
@@ -2492,7 +2496,7 @@ body {
 
   .desi {
     flex-direction: column;
-    width: 700px;
+    width: 400px;
     height: auto;
     padding-bottom: 30px;
   }
@@ -2502,9 +2506,8 @@ body {
   }
 
   .jui button {
-    width: 400px;
-    font-size: 45px;
-    height: 75px;
+    width:300px;
+    font-size: 35px;
   }
 
   .loop {
@@ -2513,56 +2516,60 @@ body {
   }
 
   .java {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
   .plu {
-    width: 700px;
+    width: 300px;
   }
 
+  .loop{
+    flex-direction: row;
+  }
 
   .plu p {
-    font-size: 45px;
+    font-size: 25px;
     width: 90%;
     overflow-wrap: break-word;
   }
 
   .plu h2{
-    font-size: 55px;
+    font-size: 26px;
+    width: 100%;
+    overflow-wrap: break-word;
   }
 
   .why h1 {
-    font-size: 75px;
+    font-size: 40px;
 
   }
 
   .why h2{
-    font-size: 45px;
+    font-size: 30px;
   }
 
   .why p {
-    font-size: 45px;
+    font-size: 25px;
     width: 90%;
     overflow-wrap: break-word;
   }
 
   .ask {
-    width: 600px;
+    width: 400px;
   }
 
   .ask h2{
-    font-size: 55px;
+    font-size: 30px;
   }
 
   .ask button{
-    width: 400px;
-    font-size: 45px;
-    height: 75px;
+    width: 200px;
+    font-size: 25px;
   }
 
   .accordion {
-    font-size: 35px;
+    font-size: 20px;
     padding: 12px 16px;
     flex-direction: column;
     align-items: flex-end;
@@ -2580,7 +2587,7 @@ body {
   }
 
   .accordion-content {
-    font-size: 35px;
+    font-size: 20px;
     padding: 12px 16px;
     line-height: 2;
     text-align: justify;
@@ -2597,7 +2604,7 @@ body {
 
 
   .hoo p {
-    font-size: 45px;
+    font-size: 30px;
     width: 90%;
     overflow-wrap: break-word;
     margin: auto;
@@ -2605,7 +2612,7 @@ body {
   }
 
   .hoo h2 {
-    font-size: 75px;
+    font-size: 40px;
     text-align: center;
 
   }
@@ -2613,29 +2620,29 @@ body {
 
   .mal {
     text-align: center;
-    font-size: 60px;
+    font-size: 25px;
   }
 
   .mal p{
-    font-size: 45px;
+    font-size: 20px;
   }
 
   .coo {
     text-align: center;
-    font-size: 60px;
+    font-size: 25px;
   }
 
   .coo p{
-    font-size: 45px;
+    font-size: 20px;
   }
 
   .eve {
     text-align: center;
-    font-size: 60px;
+    font-size: 25px;
   }
 
   .eve p{
-    font-size: 45px;
+    font-size: 20px;
   }
 
 
@@ -2647,115 +2654,126 @@ body {
 
 
 
-/* @media (min-width: 1031px) and (max-width: 1290px) {
+ @media (min-width: 1031px) and (max-width: 1290px) {
+
+  * {
+    box-sizing: border-box;
+    will-change: transform;
+
+  }
+
+  .nav {
+    will-change: transform;
+    
+
+ 
+  }
+
+ 
+
 
   .main {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
   }
 
 
-  .agency {
-    text-align: center;
-  }
+ 
 
   .agency h1 {
 
-    width: 300px;
-    font-size: 30px;
-    margin: auto;
+    width: 500px;
+    font-size: 40px;
     padding-top: 40px;
   }
 
   .agency .donec {
-    width: 300px;
+    width: 500px;
     font-size: 20px;
-    margin: auto;
     padding-top: 40px;
 
   }
 
   .agency button {
     margin-top: 40px;
+    font-size: 20px;
+ 
   }
 
   .agency .clr {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .imagewrapper {
-    width: 300px;
-    height: 390px;
+    width: 460px;
+    height: 490px;
   }
 
   .mainimg {
-    width: 270px;
-    height: 290px;
+    width: 430px;
+    height: 390px;
   }
 
   .des {
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
+    flex-direction: row;
+
   }
 
-  .sim img {
-    width: 100%;
-    max-width: 320px;
-  }
+.sim img {
+  width: 120%;
+  height: auto;
+  object-fit: cover;
+  position: relative;
+  right: 90px;
+}
 
   .thing h1 {
-    font-size: 24px;
-    width: 90%;
-    margin: auto;
-    text-align: center;
+    font-size: 40px;
+    width: 100%;
   }
 
   .thing p {
     font-size: 20px;
     width: 90%;
-    margin: auto;
     text-align: justify;
-    padding-top: 30px;
   }
 
   .tmmm {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    flex-direction:row;
+  
   }
 
   .thing button {
     font-size: 20px;
-    width: 180px;
-    margin-top: 30px;
+    width: 200px;
+    height: 45px;
   }
 
   .mmm p {
     position: relative;
-    bottom: 10px;
+    bottom: 3px;
   }
 
   .peh {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
   .sec {
-    flex-direction: column;
+    flex-direction: roww;
     align-items: center;
   }
 
   .what h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .what h3 {
-    font-size: 27px;
+    font-size: 30px;
+    margin-top: 80px;
   }
 
   .what p {
-    font-size: 25px;
+    font-size: 30px;
     width: 90%;
     overflow-wrap: break-word;
 
@@ -2769,7 +2787,7 @@ body {
   }
 
   .cre h2 {
-    font-size: 23px;
+    font-size: 30px;
     margin: auto;
     text-align: center;
   }
@@ -2786,7 +2804,7 @@ body {
 
   .desi {
     flex-direction: column;
-    width: 300px;
+    width: 400px;
     height: auto;
     padding-bottom: 30px;
   }
@@ -2796,9 +2814,8 @@ body {
   }
 
   .jui button {
-    width: 200px;
-    font-size: 20px;
-    height: 45px;
+    width:300px;
+    font-size: 35px;
   }
 
   .loop {
@@ -2807,7 +2824,7 @@ body {
   }
 
   .java {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
@@ -2815,32 +2832,127 @@ body {
     width: 300px;
   }
 
+  .loop{
+    flex-direction: row;
+  }
+
   .plu p {
     font-size: 25px;
-    width: 80%;
-    overflow-wrap: break-word;
-    text-align: justify;
-  }
-
-  .why h1 {
-    font-size: 30px;
-
-  }
-
-  .why p {
-    font-size: 20px;
     width: 90%;
     overflow-wrap: break-word;
   }
 
+  .plu h2{
+    font-size: 26px;
+    width: 100%;
+    overflow-wrap: break-word;
+  }
+
+  .why h1 {
+    font-size: 40px;
+
+  }
+
+  .why h2{
+    font-size: 30px;
+  }
+
+  .why p {
+    font-size: 25px;
+    width: 90%;
+    overflow-wrap: break-word;
+  }
+
+  .ask {
+    width: 400px;
+  }
+
+  .ask h2{
+    font-size: 30px;
+  }
+
+  .ask button{
+    width: 200px;
+    font-size: 25px;
+  }
+
+  .accordion {
+    font-size: 20px;
+    padding: 12px 16px;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 600px;
+    margin: auto;
+    text-align: justify;
+    margin-top: 20px;
+  }
+
+  .accordion span:last-child {
+    align-self: flex-end;
+    position: relative;
+    bottom: 20px;
+
+  }
+
+  .accordion-content {
+    font-size: 20px;
+    padding: 12px 16px;
+    line-height: 2;
+    text-align: justify;
+    width: 600px;
+    margin: auto;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
 
 
 
+  .hoo p {
+    font-size: 30px;
+    width: 90%;
+    overflow-wrap: break-word;
+    margin: auto;
+    text-align: justify;
+  }
 
-} */
+  .hoo h2 {
+    font-size: 40px;
+    text-align: center;
+
+  }
+
+
+  .mal {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .mal p{
+    font-size: 20px;
+  }
+
+  .coo {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .coo p{
+    font-size: 20px;
+  }
+
+  .eve {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .eve p{
+    font-size: 20px;
+  }
 
 
 
-
-
-
+} 
